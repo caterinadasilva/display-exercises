@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
+	font-size: 2rem;
+}
+header {
+	background-color: rgba(41, 39, 50,.5);
+    padding: 1em 0 .5em;
+    margin: 0 0 2em;
+}
+small {
+    font-size: 60%;
+}
+.contenedor {
+    overflow: hidden;
+    margin: .5em auto;
+    text-align: left;
+    width: initial;
+}
+.caja {
+	padding: .5em .5em 2em;
+}
+.caja:last-child {
+    text-transform: uppercase;
+}
+.amarillo {
+	background-color: gold;
+}
+.rosado {
+	background-color: crimson;
+}
+#cuerpo {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+#uno .rosado {
+	border: 1px solid black;
+}
+#dos .rosado {
+	margin: 1em 0;
+}
+#tres .caja, #cuatro .caja {	
+	display: inline-block;
+}
+#tres .caja {
+    padding: .5em 1em .4em .4em;
+}
+#cuatro .caja {
+    padding: .3em .3em 1.5em .3em;
+    width: 32%;
+}
+#cinco {
+	background-image: url('../img/bg.jpg');
+	background-position: center;
+	color: white;
+	text-align: center;
+}
+#cinco .caja {
+	display: inline-block;
+    width: 4em;
+    height: 4em;
+    background-color: rgba(207, 95, 81, .7);
+    overflow: hidden;
+    border: 5px solid rgb(207, 95, 81);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position: center;
+}
+#f1 .caja {
+	background-image: url('../img/devon-rex-cat.png');
+}
+#f2.contenedor {
+    background-color: rgba(28, 59, 51, .7);
+    border: rgb(28, 59, 51) 5px solid;
+    display: inline-block;
+    padding: .5em;
+}
+#f2 .caja:first-child{
+	background-image: url('../img/maine-coon-cat.png');
+}
+#f2 .caja:nth-child(2){
+	background-image: url('../img/norwegian-forest-cat.png');
+}
+#f2 .caja:last-child{
+	background-image: url('../img/ragdoll-cat.png');
+}
+#f3 .caja:first-child{
+	background-image: url('../img/scottish-fold-cat.png');
+}
+#f3 .caja:nth-child(2){
+	background-image: url('../img/singapura-cat.png');
+}
+#f4 .caja {
+	background-image: url('../img/turkish-angora-cat.png');
+}
