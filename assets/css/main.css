@@ -11,9 +11,25 @@ header {
 	background-color: rgba(41, 39, 50,.5);
     padding: 1em 0 .5em;
     margin: 0 0 2em;
+    color: white;
+}
+footer {
+	margin: 3em auto;
 }
 small {
     font-size: 60%;
+}
+ul {
+    list-style: none;
+}
+ul li {
+	text-align: center;
+    overflow: hidden;
+}
+ul li a {
+    padding: .3em 0;
+    display: block;
+    color: salmon;
 }
 .contenedor {
     overflow: hidden;
@@ -32,6 +48,9 @@ small {
 }
 .rosado {
 	background-color: crimson;
+}
+#index {
+	text-align: center;
 }
 #cuerpo {
     max-width: 600px;
